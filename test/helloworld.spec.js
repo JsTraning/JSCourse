@@ -1,4 +1,4 @@
-const { descride, it } = require('mocha');
+const { describe, it } = require('mocha');
 const logger = require('../utils/log.util');
 
 describe('Hello World Test Suite', () => {
