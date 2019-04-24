@@ -2,12 +2,13 @@ class DateTime
 {
     today()
     {
-        return Date.now();
+        return new Date();
     }
 
-    setYear(date)
+    setYear(date, year)
     {
-
+        date.setFullYear(year);
+        return date;
     }
 
     daysDifference(dateLeft, dateRight)
